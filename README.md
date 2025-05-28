@@ -1,15 +1,23 @@
-# arbol-merkle
+## ¿Cómo ejecutar el código?
 
-To install dependencies:
+Este proyecto utiliza [Bun](https://bun.sh/) como manejador de paquetes y ejecutor de scripts, que soporta TypeScript de forma nativa.
 
-```bash
-bun install
-```
+1. Instala las dependencias (si es necesario):
 
-To run:
+   ```
+   bun install
+   ```
 
-```bash
-bun run index.ts
-```
+2. Ejecuta el archivo principal:
 
-This project was created using `bun init` in bun v1.1.38. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+   ```
+   bun run start
+   ```
+
+   O simplemente:
+
+   ```
+   bun index.ts
+   ```
+
+Esto ejecutará el código y mostrará en consola la construcción del árbol de Merkle y la raíz resultante.
